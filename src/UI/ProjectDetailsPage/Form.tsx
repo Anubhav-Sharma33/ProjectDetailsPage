@@ -37,7 +37,7 @@ const Form = (props:any) => {
         </div>
       </div>
       <div className="flex justify-center items-center">
-        <button className="border px-[15px] py-[5px] text-[1rem] bg-[#2f2f2f] text-white">SEND MESSAGE</button>
+        <button className="px-[15px] py-[5px] text-[1rem] bg-[#2f2f2f] text-white">SEND MESSAGE</button>
       </div>
     </form>
   );
