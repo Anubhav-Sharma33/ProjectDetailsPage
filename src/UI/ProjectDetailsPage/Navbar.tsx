@@ -1,6 +1,5 @@
 import Logo from "./Logo";
 import Menu from "./Menu";
-import Toggler from "./Toggler";
 
 const Navbar = () => {
   return (
