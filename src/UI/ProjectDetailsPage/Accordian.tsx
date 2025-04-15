@@ -53,7 +53,7 @@ export default function Accordion() {
           >
             <span className="flex-1">{`Q${index + 1}: ${item.title}`}</span>
             <ChevronDown
-              className={`w-8 h-8 transition-transform duration-300 ${
+              className={`w-6 h-6 transition-transform duration-300 ${
                 openIndex === index ? "rotate-180" : ""
               }`}
             />
