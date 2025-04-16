@@ -8,6 +8,7 @@ const SingleAmenity = (props:any) => {
             className="w-full h-auto object-cover filter invert brightness-0"
           />
         </div>
+        <div className="w-full border"></div>
         <p>{props.title}</p>
       </div>
     </div>
