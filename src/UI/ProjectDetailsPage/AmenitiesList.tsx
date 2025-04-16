@@ -63,9 +63,8 @@ const AmenitiesList = () => {
       <Slider {...settings}>
         {/* 👇 Add padding to each slide */}
         {amenities.map((cur:any)=>{
-            return(<div className="px-4">
-                <SingleAmenity title = {cur.title} image = {cur.image}/>
-            </div>)
+            return(
+                <SingleAmenity title = {cur.title} image = {cur.image}/>)
         })}
       </Slider>
     </div>

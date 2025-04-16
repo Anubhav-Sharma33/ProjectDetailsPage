@@ -21,8 +21,8 @@ const AmenitiesSection = () => {
             </button>
           </div>
         </div>
-      </div>
       <AmenitiesList/>
+      </div>
     </div>
   );
 };
