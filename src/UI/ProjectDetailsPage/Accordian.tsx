@@ -45,20 +45,19 @@ export default function Accordion() {
         >
           <button
             onClick={() => toggle(index)}
-            className={`group w-full flex justify-between items-center p-4 text-left font-bold text-[1rem] gap-x-2 ${
+            className={`group w-full flex justify-between items-center p-4 text-left font-bold text-[1rem] ${
               openIndex === index
                 ? "hover:text-[#116d42] text-[#2f2f2f]"
                 : "text-[#2f2f2f]"
             }`}
           >
-            <span className="flex-1">{`Q${index + 1}: ${item.title}`}</span>
+            <span>{`Q${index + 1}: ${item.title}`}</span>
             <ChevronDown
-              className={`w-6 h-6 transition-transform duration-300 ${
+              className={`h-5 w-5 transition-transform duration-300 ${
                 openIndex === index ? "rotate-180" : ""
               }`}
             />
           </button>
-
           <div
             className={`overflow-hidden transition-all duration-300 ${
               openIndex === index ? "max-h-40 p-4" : "max-h-0 p-0"

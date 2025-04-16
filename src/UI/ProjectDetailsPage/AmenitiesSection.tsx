@@ -1,9 +1,10 @@
+import AmenitiesList from "./AmenitiesList";
 
 const AmenitiesSection = () => {
   return (
     <div className="relative bg-fixed bg-center bg-cover flex flex-col items-center justify-center py-[2.5rem] bg-[url('https://sar.ecis.in/api/starestate/star_estate/project_gallery/2025-02-19T12-47-10_g3.jpg')]">
       <div className="absolute inset-0 bg-black/75 pointer-events-none z-10"></div>
-      <div className="flex justify-center w-full px-[1.5rem] md:px-[2rem] lg:w-[91%] lg:px-[0.75rem] max-w-[1340px] m-auto">
+      <div className="flex justify-center flex-col items-center w-full px-[1.5rem] md:px-[2rem] lg:w-[91%] lg:px-[0.75rem] max-w-[1340px] m-auto">
         <div className=" relative mb-[20px] flex flex-col justify-center items-center  text-white z-20">
           <h1 className="text-[1.75rem] sm:text-[calc(1.33rem+0.9vw)] xl:text-[2rem] font-bold mb-[1rem]">
             Amenities
@@ -20,8 +21,8 @@ const AmenitiesSection = () => {
             </button>
           </div>
         </div>
-        {/* Ammenities Section */}
       </div>
+      <AmenitiesList/>
     </div>
   );
 };
