@@ -3,7 +3,7 @@ import SectionWrapper from "./SectionWrapper";
 const WalkThroughSection = () => {
   return (
     <SectionWrapper>
-      <div className="w-full flex justify-center flex-wrap text-white" id ="WalkThroughSection">
+      <div className="w-full flex justify-center flex-wrap text-white scroll-mt-[81px] md:scroll-mt-[86px]" id ="WalkThroughSection">
         <div className="w-full lg:w-[84%] max-w-[100%] flex justify-center">
           <div className="relative bg-[url('https://sar.ecis.in/api/starestate/star_estate/project_gallery/2025-02-19T12-47-16_g6.jpg')]">
             <div className="absolute inset-0 bg-black/75 pointer-events-none z-10"></div>
